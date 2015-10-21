@@ -1,2 +1,2 @@
-#### Flask Single Page application using the NPR API
+#### Flask Single Page application using the Yelp API
 
