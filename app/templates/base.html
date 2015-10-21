@@ -8,6 +8,10 @@
   <script type="text/javascript" src="{{ url_for('static', filename='js/moment.js') }}"></script>
   <script type="text/javascript" src="{{ url_for('static', filename='js/tweet_stream.js') }}"></script>
 
+  <!-- Bootstrap -->
+  <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+
   <!-- Stylesheets -->
   <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
   </head>
@@ -25,6 +29,7 @@
         Refresh
       </div>
     </div>
+  </div>
 
   	{% block content %}
     <div class='content'></div>
@@ -36,6 +41,7 @@
       <p class="text-muted">Brought to you by Polina Soshnin.</p>
     </div>
   </footer>
+
   </body>
 
 </html>
