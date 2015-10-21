@@ -13,11 +13,29 @@
   </head>
 
   <body>
+
+  <!-- header -->
+  <div class="container">
+    <div class="page-header">
+      <h1>NPR API Single Page app</h1>
+    </div>
+    <p class="lead">See awesome stories!</p>
+    <div class='btn btn-default navbar-btn'>
+      <div id='refresh'>
+        Refresh
+      </div>
+    </div>
+
   	{% block content %}
-  	<div id="content">
-  	Content
-  	</div>
+    <div class='content'></div>
   	{% endblock content %}
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">Brought to you by Polina Soshnin.</p>
+    </div>
+  </footer>
   </body>
 
 </html>
